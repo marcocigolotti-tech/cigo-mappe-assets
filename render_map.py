@@ -78,7 +78,7 @@ def draw(data,dest):
     label(c,W/2,H-43,data['title'],27,True)
     c.setFillColor(YELLOW);c.roundRect(W/2-190,H-61,380,8,4,fill=1,stroke=0)
     facilitated=data.get('type')=='facilitata'
-    sub='Mappa concettuale • Seconda media • '+('versione facilitata' if facilitated else 'versione standard')
+    sub='Mappa concettuale • '+data.get('class_label','Scuola secondaria')+' • '+('versione facilitata' if facilitated else 'versione standard')
     label(c,W/2,H-83,sub,11,True,GRAY)
     label(c,W/2,H-121,data.get('root',data['title']),18,True)
     branches=data['branches'];n=len(branches)
