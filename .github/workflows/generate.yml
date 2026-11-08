@@ -16,13 +16,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install --disable-pip-version-check reportlab
+      - run: python -m pip install --disable-pip-version-check reportlab pymupdf
+      - run: python cache_photos.py
       - run: python render_map.py
       - name: Commit PDF
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add output/*.pdf
+          git add output/*.pdf assets/*.jpg
           if ! git diff --cached --quiet; then
             git commit -m 'Genera mappe PDF [skip ci]'
             git push
