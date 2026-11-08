@@ -34,15 +34,18 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chartres_cathedral_%28West_fa%C3%A7ade%29.jpg",
       "caption": "Cattedrale di Chartres, facciata",
       "credit": "Foto: Dcconsta • CC BY-SA 3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Chartres_cathedral_(West_fa%C3%A7ade).jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:Chartres_cathedral_(West_fa%C3%A7ade).jpg",
+      "asset": "assets/chartres.jpg"
     },
     {
       "column": 2,
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sainte-Chapelle-Interior.jpg/960px-Sainte-Chapelle-Interior.jpg",
       "caption": "Sainte-Chapelle, interno",
       "credit": "Foto: Michael D. Hill Jr. • CC BY-SA 3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Sainte-Chapelle-Interior.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:Sainte-Chapelle-Interior.jpg",
+      "asset": "assets/sainte-chapelle.jpg"
     }
   ],
-  "arch_diagram_column": 1
+  "arch_diagram_column": 1,
+  "class_label": "Seconda media"
 }
