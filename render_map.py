@@ -44,11 +44,15 @@ def arrow(c,x1,y1,x2,y2):
 
 def photo(c,d,x,y,w,h):
     uri=d['url']
-    if not uri.startswith('https://upload.wikimedia.org/'):
-        raise ValueError('Use verified Wikimedia URLs only')
-    req=urllib.request.Request(uri,headers={'User-Agent':'CIGO-Mappe/1.0 (educational PDF attribution)'})
-    with urllib.request.urlopen(req,timeout=35) as r:raw=r.read()
-    im=Image.open(io.BytesIO(raw));im.load()
+    cached=ROOT/d.get('asset','__missing_file__')
+    if cached.is_file():
+        im=Image.open(cached);im.load()
+    else:
+        if not uri.startswith('https://upload.wikimedia.org/'):
+            raise ValueError('Use verified Wikimedia URLs only')
+        req=urllib.request.Request(uri,headers={'User-Agent':'CIGO-Mappe/1.0 (educational PDF attribution)'})
+        with urllib.request.urlopen(req,timeout=35) as r:raw=r.read()
+        im=Image.open(io.BytesIO(raw));im.load()
     if im.mode != 'RGB':im=im.convert('RGB')
     im.thumbnail((960,800))
     packed=io.BytesIO()
