@@ -1,13 +1,15 @@
-# CIGO Mappe — Risorse pubbliche
+# CIGO Mappe — risorse pubbliche
 
-Repository per il font Kalam Bold e lo script di verifica usati dalla skill privata CIGO Mappe.
+Risorse per la skill privata CIGO Mappe. Nessun dato personale o scolastico.
 
-Il font Kalam Bold e' distribuito con licenza SIL Open Font License 1.1; consulta `OFL.txt`. Autore del font: Indian Type Foundry (2014).
+## Kalam Bold
 
-Il plugin privato CIGO Mappe NON deve essere pubblicato qui. Non inserire materiale scolastico o dati degli studenti.
+Font originale: https://github.com/google/fonts/blob/main/ofl/kalam/Kalam-Bold.ttf
 
-Per verificare:
+Download diretto: https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Bold.ttf
 
-```bash
-python font_check.py --test-pdf CIGO_Font_Test.pdf --font-path Kalam-Bold.ttf
-```
+Licenza SIL Open Font License 1.1: https://github.com/google/fonts/blob/main/ofl/kalam/OFL.txt
+
+Copyright © 2014 Indian Type Foundry.
+
+**Nota tecnica:** il recupero automatico del font richiede accesso di rete nell'ambiente che crea i PDF. Un repository pubblico da solo non rimuove questa limitazione.
