@@ -4,15 +4,15 @@
   "root": "ARTE GOTICA",
   "branches": [
     {
-      "title": "ORIGINI",
+      "title": "LE ORIGINI",
       "items": [
         "Nasce in Francia nel XII secolo",
         "Si diffonde in Europa",
-        "Le cattedrali diventano più alte e luminose"
+        "Le cattedrali diventano più alte"
       ]
     },
     {
-      "title": "ARCHITETTURA",
+      "title": "LE STRUTTURE",
       "items": [
         "Arco a sesto acuto",
         "Volta a crociera ogivale",
@@ -20,12 +20,29 @@
       ]
     },
     {
-      "title": "LUCE E VETRATE",
+      "title": "LUCE E SIMBOLI",
       "items": [
-        "Vetrate colorate raccontano storie",
-        "Il rosone illumina la facciata",
-        "La luce assume un valore simbolico"
+        "Grandi vetrate colorate",
+        "Rosoni sulle facciate",
+        "La luce richiama il divino"
       ]
     }
-  ]
+  ],
+  "images": [
+    {
+      "column": 0,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chartres_cathedral_%28West_fa%C3%A7ade%29.jpg",
+      "caption": "Cattedrale di Chartres, facciata",
+      "credit": "Foto: Dcconsta • CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chartres_cathedral_(West_fa%C3%A7ade).jpg"
+    },
+    {
+      "column": 2,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sainte-Chapelle-Interior.jpg/960px-Sainte-Chapelle-Interior.jpg",
+      "caption": "Sainte-Chapelle, interno",
+      "credit": "Foto: Michael D. Hill Jr. • CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sainte-Chapelle-Interior.jpg"
+    }
+  ],
+  "arch_diagram_column": 1
 }
