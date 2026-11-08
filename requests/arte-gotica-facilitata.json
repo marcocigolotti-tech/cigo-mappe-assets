@@ -1,0 +1,47 @@
+{
+  "title": "ARTE GOTICA",
+  "type": "facilitata",
+  "root": "ARTE GOTICA",
+  "branches": [
+    {
+      "title": "DOVE E QUANDO",
+      "items": [
+        "Nasce in Francia nel XII secolo",
+        "Si diffonde in Europa"
+      ]
+    },
+    {
+      "title": "COME SI COSTRUISCE",
+      "items": [
+        "Archi a punta",
+        "Volte a costoloni",
+        "Archi rampanti sostengono i muri"
+      ]
+    },
+    {
+      "title": "LUCE E COLORI",
+      "items": [
+        "Grandi finestre con vetrate",
+        "Rosoni rotondi sulle facciate",
+        "La luce entra in chiesa"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "column": 0,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chartres_cathedral_%28West_fa%C3%A7ade%29.jpg",
+      "caption": "Cattedrale di Chartres",
+      "credit": "Foto: Dcconsta • CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chartres_cathedral_(West_fa%C3%A7ade).jpg"
+    },
+    {
+      "column": 2,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sainte-Chapelle-Interior.jpg/960px-Sainte-Chapelle-Interior.jpg",
+      "caption": "Vetrate della Sainte-Chapelle",
+      "credit": "Foto: Michael D. Hill Jr. • CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Sainte-Chapelle-Interior.jpg"
+    }
+  ],
+  "arch_diagram_column": 1
+}
