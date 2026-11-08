@@ -53,6 +53,11 @@ def photo(c,d,x,y,w,h):
         req=urllib.request.Request(uri,headers={'User-Agent':'CIGO-Mappe/1.0 (educational PDF attribution)'})
         with urllib.request.urlopen(req,timeout=35) as r:raw=r.read()
         im=Image.open(io.BytesIO(raw));im.load()
+        if d.get('asset'):
+            cached.parent.mkdir(parents=True,exist_ok=True)
+            tmp=im.convert('RGB')
+            tmp.thumbnail((960,800))
+            tmp.save(cached,'JPEG',quality=84,optimize=True)
     if im.mode != 'RGB':im=im.convert('RGB')
     im.thumbnail((960,800))
     packed=io.BytesIO()
