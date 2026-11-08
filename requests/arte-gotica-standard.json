@@ -1,0 +1,31 @@
+{
+  "title": "ARTE GOTICA",
+  "type": "standard",
+  "root": "ARTE GOTICA",
+  "branches": [
+    {
+      "title": "ORIGINI",
+      "items": [
+        "Nasce in Francia nel XII secolo",
+        "Si diffonde in Europa",
+        "Le cattedrali diventano più alte e luminose"
+      ]
+    },
+    {
+      "title": "ARCHITETTURA",
+      "items": [
+        "Arco a sesto acuto",
+        "Volta a crociera ogivale",
+        "Archi rampanti e contrafforti"
+      ]
+    },
+    {
+      "title": "LUCE E VETRATE",
+      "items": [
+        "Vetrate colorate raccontano storie",
+        "Il rosone illumina la facciata",
+        "La luce assume un valore simbolico"
+      ]
+    }
+  ]
+}
