@@ -6,6 +6,9 @@ on:
       - 'render_map.py'
       - '.github/workflows/generate.yml'
   workflow_dispatch:
+concurrency:
+  group: cigo-mappe-generation
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
